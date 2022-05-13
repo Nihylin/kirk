@@ -1,120 +1,146 @@
 [{
-    "id":1,
+    "id":0,
     "title":"spock",
-    "descrition":"Mange ou ne mange pas ! Il n'y a pas d'éssais !",
+    "description":"Mange ou ne mange pas ! Il n'y a pas d'éssais !",
     "categorie":"salé",
     "rating":5,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 5.50
+    "prix": 5.50,
+    "quantitySelected":0,
+    "addedToBasket": false
 
 },
 {
-    "id":2,
+    "id":1,
     "title":"Nona",
-    "descrition":"Your entire life has been a mathematical error... a mathematical error I'm about to correct!",
+    "description":"Your entire life has been a mathematical error... a mathematical error I'm about to correct!",
     "categorie":"sucré",
     "rating":3.19,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 5.25
+    "prix": 5.25,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":3,
+    "id":2,
     "title":"Trelane",
-    "descrition":"People who can’t throw something important, can never hope to change anything",
+    "description":"People who can’t throw something important, can never hope to change anything",
     "categorie":"salé",
     "rating":0.83,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 3.23
+    "prix": 3.23,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":4,
+    "id":3,
     "title":"Koron",
-    "descrition":"My Precious...",
+    "description":"My Precious...",
     "categorie":"suré",
     "rating":2.53,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 4.23
+    "prix": 4.23,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":5,
+    "id":4,
     "title":"miramane",
-    "descrition":"It's not a sin to fall in love. You can't even arrest someone over that.",
+    "description":"It's not a sin to fall in love. You can't even arrest someone over that.",
     "categorie":"salé",
     "rating":1.83,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 5.31
+    "prix": 5.31,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":6,
+    "id":5,
     "title":"Deela",
-    "descrition":"Kweh!",
+    "description":"Kweh!",
     "categorie":"sucré",
     "rating":3.30,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 8.60
+    "prix": 8.60,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":7,
+    "id":6,
     "title":"surak",
-    "descrition":"Hope is comforting.",
+    "description":"Hope is comforting.",
     "categorie":"salé",
     "rating":2.59,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 5.35
+    "prix": 5.35,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":8,
+    "id":7,
     "title":"natira",
-    "descrition":"Have you seen a wild beast who promised it wouldn't bite? because I haven't!",
+    "description":"Have you seen a wild beast who promised it wouldn't bite? because I haven't!",
     "categorie":"salé",
     "rating":0.23,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 4.32
+    "prix": 4.32,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":9,
+    "id":8,
     "title":"tamoon",
-    "descrition":"Bonds that are too strong create flaws over time.",
+    "description":"Bonds that are too strong create flaws over time.",
     "categorie":"salé",
     "rating":4.74,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 1.99
+    "prix": 1.99,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":10,
+    "id":9,
     "title":"Ellen",
-    "descrition":"Kneel before Zod!",
+    "description":"Kneel before Zod!",
     "categorie":"sucré",
     "rating":3.62,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 6.32
+    "prix": 6.32,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":11,
+    "id":10,
     "title":"stonn",
-    "descrition":"Things we lose have a way of coming back to us in the end.",
+    "description":"Things we lose have a way of coming back to us in the end.",
     "categorie":"bio",
     "rating":3.8,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 7.43
+    "prix": 7.43,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":12,
+    "id":11,
     "title":"Lee",
-    "descrition":"I don't like two-legged things.",
+    "description":"I don't like two-legged things.",
     "categorie":"bio",
     "rating":2.34,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 1.21
+    "prix": 1.21,
+    "quantitySelected":0,
+    "addedToBasket": false
 },
 {
-    "id":13,
+    "id":12,
     "title":"Nancy",
-    "descrition":"Never miss a chance to say 'I Love You' because you never know when it might be time for you to leave",
+    "description":"Never miss a chance to say 'I Love You' because you never know when it might be time for you to leave",
     "categorie":"bio",
     "rating":4.32,
     "image":"https://www.croquegel.com/Base_Produits_Traites/E228/financiers-pistaches-150g-0009769-p.jpg",
-    "prix": 2.43
+    "prix": 2.43,
+    "quantitySelected":0,
+    "addedToBasket": false
 }
 
 ]

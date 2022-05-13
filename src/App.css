@@ -43,6 +43,13 @@ input {
   color: blue;
 /*   border-bottom: none; */
 }
+
+.container{
+  display: flex;
+  justify-content: center;
+  
+  
+}
 datalist {
   position: absolute;
   background-color: white;
