@@ -80,7 +80,7 @@ function addme(){
  <>
 
  <header>
-   <img src="img/horizontalCouleur.png" alt="PROUT" />
+   <img src="img/horizontalBlanc.png" alt="PROUT" />
    <div className='recherche'>
     <input list="produits" placeholder="Enter Post Title" onChange={event => setproduct(event.target.value)} />
    </div>
@@ -94,10 +94,9 @@ function addme(){
  })}
    </datalist>
    <nav>
-     <a href="">Boutique</a>
+     <a href="/vitrine">Vitrine</a>
      <a href="">Contact</a>
-     <a href="">Chépa</a>
-     <a href="">Chépanonplus</a>
+     <a href="">À propos</a>
    </nav>
  </header>
 

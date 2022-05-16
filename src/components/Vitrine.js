@@ -8,12 +8,11 @@ function Vitrine() {
   return (
     <>
     <header>
-      <img src="img/horizontalCouleur.png" alt="PROUT" />
+      <img src="img/horizontalBlanc.png" alt="PROUT" />
       <nav>
-        <a href="">Boutique</a>
+        <a href="/produit">Boutique</a>
         <a href="">Contact</a>
-        <a href="">Chépa</a>
-        <a href="">Chépanonplus</a>
+        <a href="">À propos</a>
       </nav>
     </header>
 
@@ -29,19 +28,19 @@ function Vitrine() {
             <h2>Lorem ipsum dolor sit amet.</h2>
             <p>Lorem ipsum dolor sit amet. Qui itaque sequi et iste itaque ab sunt consequuntur qui dolores nisi quo voluptatem provident.</p>
             <div class="grid">
-              <img src="img/flocon.svg" alt="" />
-              <img src="img/flocon.svg" alt="" />
-              <img src="img/flocon.svg" alt="" />
-              <img src="img/flocon.svg" alt="" />
-              <img src="img/flocon.svg" alt="" />
-              <img src="img/flocon.svg" alt="" />
+              <img src="img/financier.jpg" alt="" />
+              <img src="img/financier.jpg" alt="" />
+              <img src="img/financier.jpg" alt="" />
+              <img src="img/financier.jpg" alt="" />
+              <img src="img/financier.jpg" alt="" />
+              <img src="img/financier.jpg" alt="" />
             </div>
           </div>
         </div>
 
         <div class="firstRight">
           <div class="beztamer">
-            <img src="img/flocon.svg" alt="" />
+            <img src="img/financier.jpg" alt="" />
             <div>
               <h3>Sed ut perspiciatis unde omnis</h3>
               <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet.</p>
@@ -52,7 +51,7 @@ function Vitrine() {
 
       <div class="secondSection">
         <div class="secondLeft">
-          <img src="img/flocon.svg" alt="" />
+          <img src="img/financier.jpg" alt="" />
         </div>
 
         <div class="secondRight">
@@ -60,15 +59,15 @@ function Vitrine() {
           <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem.</p>
           <ul>
             <li>
-              <img src="img/flocon.svg" alt="" />
+              <img src="img/financier.jpg" alt="" />
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptate</p>
             </li>
             <li>
-              <img src="img/flocon.svg" alt="" />
+              <img src="img/financier.jpg" alt="" />
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptate</p>
             </li>
             <li>
-              <img src="img/flocon.svg" alt="" />
+              <img src="img/financier.jpg" alt="" />
               <p>Sed ut perspiciatis unde omnis iste natus error sit voluptate</p>
             </li>
           </ul>
@@ -79,13 +78,13 @@ function Vitrine() {
         <h2>Snap photos and share like never before</h2>
         <div class="thirdInner">
           <div class="thirdInnerFirst">
-            <img src="img/flocon.svg" alt="" />
+            <img src="img/financier.jpg" alt="" />
             <h3>Sed ut perspiciatis</h3>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
             <button>Learn more</button>
           </div>
           <div class="thirdInnerSecond">
-            <img src="img/flocon.svg" alt="" />
+            <img src="img/financier.jpg" alt="" />
             <h3>Sed ut perspiciatis</h3>
             <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est.</p>
             <button>Learn more</button>
@@ -97,14 +96,14 @@ function Vitrine() {
         <h2>You’re in good company</h2>
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
         <div class="fourthGrid">
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
-          <img src="img/flocon.svg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
+          <img src="img/financier.jpg" alt="" />
         </div>
       </div>
 
@@ -113,10 +112,9 @@ function Vitrine() {
     <footer>
       <img src="img/kirkCouleur.png" alt="" />
       <nav>
-        <a href="">Boutique</a>
+        <a href="/boutique">Boutique</a>
         <a href="">Contact</a>
-        <a href="">Chépa</a>
-        <a href="">Chépanonplus</a>
+        <a href="">À propos</a>
       </nav>
       <div class="copyrights">
         <p>Copyright © 2022 · Registered in France.</p>
