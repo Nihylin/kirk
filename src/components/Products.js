@@ -1,7 +1,6 @@
 import { useEffect, useState } from 'react';
 import axios from 'axios';
-import { createPortal } from 'react-dom';
-import { typeImplementation } from '@testing-library/user-event/dist/type/typeImplementation';
+
 
 
 function Products() {
@@ -27,6 +26,13 @@ function Products() {
 
   }
 
+  useEffect( () => {
+
+    if(panier !==null){
+    totalBasket()
+    }
+  })
+
 function decrement(index) {
 
   let items = [...posts];
@@ -49,6 +55,7 @@ function increment(index) {
 
 }
 
+
 function addme(){
   setpanier(posts.filter(p => p.addedToBasket))
 
@@ -62,19 +69,19 @@ function addme(){
 
  }
 
-//  function totalBasket(){
-//    let sumPrix = 0;
+ function totalBasket(){
+   let sumPrix = 0;
 
 
-//   panier.forEach(element => {
-//     sumPrix += element.prix * element.quantitySelected;
-//   });
-//   console.log(sumPrix)
-//   settotal(sumPrix) ;
+  panier.forEach(element => {
+    sumPrix += element.prix * element.quantitySelected;
+  });
+  console.log(sumPrix)
+  settotal(sumPrix) ;
 
-//   return total;
+  return total;
 
-//  }
+ }
 
   return (
  <>
@@ -106,13 +113,12 @@ function addme(){
       {panier && panier.map( p => {
         return (
           <>
-          <li key={p.id}>{p.title} : {p.prix*p.quantitySelected} €           <button id={p.id} onClick={reset.bind(p.id)}>X</button></li>
+          <li key={p.id}>{p.title} : {(p.prix*p.quantitySelected).toFixed(2)} €           <button id={p.id} onClick={reset.bind(p.id)}>X</button></li>
           </>
           )
   })}
-  {/* {console.log(panier)} */}
       </ul>
-      <label>Total : {total} €</label>
+      <label>Total : {total.toFixed(2)} €</label>
     </div>
 
 
@@ -131,7 +137,7 @@ function addme(){
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>
                 <img src={p.image} ></img>
-                <p>{p.prix} €</p>
+                <p>{p.prix.toFixed(2)} €</p>
                 <div>
                   <button id={p.id} onClick={decrement.bind(p.id)} className='quantity'>-</button>
                   <label>{p.quantitySelected}</label>
