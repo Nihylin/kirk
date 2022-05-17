@@ -11,10 +11,9 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/" element={<Vitrine />} />
       <Route path="produit" element={<Products />} />
       <Route path="vitrine" element={<Vitrine />} />
-      {/* <Route path="invoices" element={<Invoices />} /> */}
     </Routes>
   </BrowserRouter>
 );
