@@ -102,7 +102,7 @@ function addme(){
    </datalist>
    <nav>
      <a href="/vitrine">Vitrine</a>
-     <a href="">Contact</a>
+     <a href="/contact">Contact</a>
      <a href="">À propos</a>
    </nav>
  </header>
@@ -113,7 +113,7 @@ function addme(){
       {panier && panier.map( p => {
         return (
           <>
-          <li key={p.id}>{p.title} : {(p.prix*p.quantitySelected).toFixed(2)} €           <button id={p.id} onClick={reset.bind(p.id)}>X</button></li>
+          <li key={p.id}>{p.title} : {(p.prix*p.quantitySelected).toFixed(2)} € <button id={p.id} onClick={reset.bind(p.id)}>X</button></li>
           </>
           )
   })}
