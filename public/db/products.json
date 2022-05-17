@@ -130,17 +130,5 @@
     "prix": 1.21,
     "quantitySelected":0,
     "addedToBasket": false
-},
-{
-    "id":12,
-    "title":"Nancy ce met au vert",
-    "description":"Never miss a chance to say 'I Love You' because you never know when it might be time for you to leave",
-    "categorie":"bio",
-    "rating":4.32,
-    "image":"https://www.paysanbretonsurgeles.com/sites/default/files/styles/product_pack_920_920_2x/public/2021-01/petits-pois-bio-sticker.png?itok=rL9wdeld",
-    "prix": 2.43,
-    "quantitySelected":0,
-    "addedToBasket": false
 }
-
 ]
