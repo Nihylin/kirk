@@ -89,7 +89,7 @@ function addme(){
  <header>
    <img src="img/horizontalBlanc.png" alt="PROUT" />
    <div className='recherche'>
-    <input list="produits" placeholder="Enter Post Title" onChange={event => setproduct(event.target.value)} />
+    <input list="produits" placeholder="Rechercher un produit" onChange={event => setproduct(event.target.value)} />
    </div>
 
    <datalist  id="produits">
@@ -107,22 +107,24 @@ function addme(){
    </nav>
  </header>
 
-    <div className='basket'>
-      <ul >
-        <h3>Panier</h3>
-      {panier && panier.map( p => {
-        return (
-          <>
-          <li key={p.id}>{p.title} : {(p.prix*p.quantitySelected).toFixed(2)} € <button id={p.id} onClick={reset.bind(p.id)}>X</button></li>
-          </>
-          )
-  })}
-      </ul>
-      <label>Total : {total.toFixed(2)} €</label>
-    </div>
-
-
   <div className='container'>
+  <div className='basket'>
+    <h3>Panier</h3>
+    <ul>
+    {panier && panier.map( p => {
+      return (
+        <>
+        <li key={p.id}>
+          {p.title} : {(p.prix*p.quantitySelected).toFixed(2)} €
+          <button id={p.id} onClick={reset.bind(p.id)}>X</button>
+        </li>
+        </>
+        )
+})}
+    </ul>
+    <label>Total : {total.toFixed(2)} €</label>
+  </div>
+
   <ul>
   {posts && posts.filter(post => {
     if (product === '') {
@@ -134,16 +136,20 @@ function addme(){
         return (
 
           <li key={p.id}>
+            <div>
                 <h3>{p.title}</h3>
                 <p>{p.description}</p>
+            </div>
                 <img src={p.image} ></img>
+            <div>
                 <p>{p.prix.toFixed(2)} €</p>
-                <div>
+                <div className='boutons'>
                   <button id={p.id} onClick={decrement.bind(p.id)} className='quantity'>-</button>
                   <label>{p.quantitySelected}</label>
                   <button id={p.id} onClick={increment.bind(p.id)} className='quantity'>+</button>
-                  <button id={p.id} onClick={addme.bind()} className='ajouter'>Add me</button>
+                  <button id={p.id} onClick={addme.bind()} className='ajouter'>Ajouter</button>
                 </div>
+            </div>
           </li>
           )
   })}

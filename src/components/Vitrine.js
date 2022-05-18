@@ -26,7 +26,7 @@ function Vitrine() {
         <div className="firstLeft">
           <div className="niktmor">
             <h2>Nos produits sont validé par les meilleurs</h2>
-            <p>Les plus grand gourmets on testé est validé nos produits, nos produits sont donc parfait pour tout les palais et mâchoires de tout nos clients. 
+            <p>Les plus grand gourmets on testé est validé nos produits, nos produits sont donc parfait pour tout les palais et mâchoires de tout nos clients.
             </p>
             <div className="grid">
               <img src="https://img.lemde.fr/2017/12/07/0/0/3500/2333/664/0/75/0/3892f92_PJ401_FILM-STARWARS-ALIENLIFE_1207_11.JPG" alt="" />
@@ -76,26 +76,26 @@ function Vitrine() {
       </div>
 
       <div className="thirdSection">
-        <h2>Snap photos and share like never before</h2>
+        <h2>Des produits qui sont trop bons sa mère vous en reviendrez pas la vérité</h2>
         <div className="thirdInner">
           <div className="thirdInnerFirst">
             <img  src="https://2geekswhoeat.com/wp-content/uploads/2017/03/Thermal-Detonator-595x397.jpg" alt="" style={{width:"500px",height:"300px"}}/>
             <h3>Les meilleurs boulettes de viande</h3>
             <p>Nos boulettes sont la sélection des animaux les plus tendre de la galaxie d'andromède, des porgs, des wookie et une pincé de xenomorph pour l'acidité.</p>
-            <button>Learn more</button>
+            <button>JE COMMANDE DIRECT</button>
           </div>
           <div className="thirdInnerSecond">
             <img  src="https://starwarsblog.starwars.com/wp-content/uploads/2022/03/star-wars-padawan-cookbook-cover_TALL.jpg" alt="" style={{width:"500px",height:"300px"}}/>
             <h3>Les meilleur samoussas de tout P3X-P89</h3>
             <p>Une seule bouchée suffit à nourrir l'estomac d'un adult sauf si votre nom est Merry ou bien Peppin.</p>
-            <button>Learn more</button>
+            <button>C'EST ICI POUR COMMANDER</button>
           </div>
         </div>
       </div>
 
       <div className="fourthSection">
         <h2>Une sélection de nos produits les plus populaire.</h2>
-        
+
         <div className="fourthGrid">
           <img src="https://www.paysanbretonsurgeles.com/m_enhance/191?style_name=product_pack_920_920_2x&filename=750g_Poelee_Fromagere&ext=png&h=460&w=460&rule=460w" alt="" />
           <img src="https://www.paysanbretonsurgeles.com/sites/default/files/styles/product_pack_920_920_2x/public/2021-01/brocolis-bio-sticker.png?itok=ZPDsTefZ" alt="" />

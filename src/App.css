@@ -50,9 +50,12 @@ input {
 .container{
   display: flex;
   justify-content: center;
-
-
+  flex-direction: column;
+  background: linear-gradient( rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5) ), url('../public/img/frozenFoods.jpeg');
+  background-size: cover;
+  /* background-repeat: no-repeat; */
 }
+
 datalist {
   position: absolute;
   background-color: white;
@@ -83,23 +86,23 @@ option:hover,  .active{
 
 .container ul {
   list-style: none;
-  /* display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  grid-row-gap: 1rem;
-  grid-column-gap: 20px;
-  overflow: hidden; */
-
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
 .container li {
-  border: 1px solid #747272;
   border-radius: 5px;
-
   max-width: 350px;
   margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: white;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
 }
 
 .product {
@@ -132,11 +135,30 @@ option:hover,  .active{
   margin: 0px 10px 0px 10px;
 }
 
-.container li div {
+.boutons {
   display: flex;
   justify-content: space-around;
   margin-bottom: 20px;
+  align-items: center;
 
+}
+
+.boutons button {
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.boutons button:hover {
+  background-color: #008CBA;
+  color: white;
+  cursor: pointer;
 }
 
 .quantity {
@@ -151,20 +173,53 @@ option:hover,  .active{
   display: flex;
   flex-direction: column;
   width: 300px;
-  border: 1px solid black;
-  border-radius: 20px;
-  padding: 10px;
-  margin: 10px;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(30px);
+  border: 2px solid rgba(255, 255, 255, 0.1);
+  border-radius: 5px;
+  box-shadow: 0 0 80px rgba(0, 0, 0, 0.2);
+  margin: 30px auto;
+  color: white;
+  justify-content: center;
+  align-items: center;
 }
 
 .basket ul {
     list-style: none;
+    width: 100%;
 }
 
 .basket li {
+  flex-direction: row;
+  margin: unset;
+  background: unset;
+  backdrop-filter: unset;
+  border: unset;
+  width: 100%;
+  padding: 10px;
+  align-items: center;
+}
 
+.basket button {
+  border: none;
+  color: black;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  transition-duration: 0.4s;
+  border-radius: 5px;
+}
+
+.basket button:hover {
+  background-color: #f44336;
+  color: white;
+  cursor: pointer;
 }
 
 .basket label {
-
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
 }
