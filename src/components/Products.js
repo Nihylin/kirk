@@ -102,13 +102,12 @@ function addme(){
    </datalist>
    <nav>
      <a href="/vitrine">Vitrine</a>
-     <a href="">Contact</a>
+     <a href="/contact">Contact</a>
      <a href="">À propos</a>
    </nav>
  </header>
 
   <div className='container'>
-
   <div className='basket'>
     <h3>Panier</h3>
     <ul>
